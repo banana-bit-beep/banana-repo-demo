@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+
+body {
+  background: linear-gradient(135deg, orange 30%, cyan);
+}
+
+h1 {
+  text-align: center;
+  background-color: DodgerBlue;
+  background-image: linear-gradient(135deg, red 10%, orange 30%, blue);
+  color: white;
+  font-family:"Rock Salt";
+  text-shadow: 4px 4px 5px green;
+}
+
+p {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button{
+  border: 3px solid rgb(22, 53, 228);
+  font-family:"Rock Salt";
+  background-color: #ffffff;
+  cursor: crosshair;
+}
+
+.button-container {
+  text-align: center;
+  margin: 15px 0;
+}  
+
+img {
+  display: block;
+  margin: 15px auto;
+}
+  
+h2 {
+  text-align: center;
+  font-family:"Rock Salt";
+}
+
+.collapse {
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid #800080;
+}
+
+th, tfoot th {
+  border: 3px solid #800080;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: right;
+  font-family:"Rock Salt";
+}
+
+td {
+  padding: 12px 10px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #000000;
+  border-top: none;
+  border-bottom: none;
+}
+
+th {
+  padding: 14px 10px;
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #d32085;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+}
+
+tfoot td {
+  background-color: #d32085;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+  color: #ffffff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+  background-image: url('https://github.com/thecodersguilduk/semantic-html-challenge/blob/master/assets/noise.png?raw=true');
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+  background-image: url('https://github.com/thecodersguilduk/semantic-html-challenge/blob/master/assets/noise.png?raw=true');
+}
