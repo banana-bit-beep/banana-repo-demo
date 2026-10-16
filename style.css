@@ -30,6 +30,7 @@ p {
 .btn-group-vertical button {
     background-color: purple;
     border: 4px solid black;
+    border-radius: 20px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
@@ -42,4 +43,6 @@ p {
 
 .btn-group-vertical button:hover {
   opacity: 0.9;
+  background-color: violet;
+  color: black;
 }
