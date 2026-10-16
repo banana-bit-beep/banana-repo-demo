@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    }
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
