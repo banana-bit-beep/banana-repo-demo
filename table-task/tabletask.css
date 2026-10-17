@@ -8,6 +8,10 @@ html {
 
 body {
   background: linear-gradient(135deg, orange 30%, cyan);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -64,6 +68,7 @@ h2 {
   border-collapse: collapse;
   width: 100%;
   border: 3px solid #800080;
+  margin-bottom: 60px;
 }
 
 th, tfoot th {
@@ -102,6 +107,16 @@ tfoot td {
   color: #ffffff;
 }
 
+tfoot tr th:first-child {
+  text-align: right;
+  padding-left: 16px;
+}
+
+tfoot tr th:last-child {
+  text-align: left;
+  padding-left: 16px;
+}
+
 tbody tr:nth-child(odd) {
   background-color: #ff33cc;
   background-image: url('https://github.com/thecodersguilduk/semantic-html-challenge/blob/master/assets/noise.png?raw=true');
@@ -110,4 +125,26 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #e495e4;
   background-image: url('https://github.com/thecodersguilduk/semantic-html-challenge/blob/master/assets/noise.png?raw=true');
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: purple;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
 }
