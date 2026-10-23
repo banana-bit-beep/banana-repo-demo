@@ -28,6 +28,40 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+fieldset {
+    text-align: center;
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+fieldset div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem 0;
+}
+
+label {
+    font-family: "Rock Salt", cursive;
+}
+
+input {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 4px solid black;
+    transition: 0.2s all linear;
+    margin-right: 0 10px 0 0;
+    flex-shrink: 0;
+}
+
+input:checked {
+    border: 6px solid dodgerblue;
+}
+
 button{
   border: 3px solid rgb(22, 53, 228);
   font-family:"Rock Salt";
