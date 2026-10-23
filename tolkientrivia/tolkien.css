@@ -1,0 +1,10 @@
+.trivia-list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+.trivia-list li {
+    display: block;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid gray;
+}
