@@ -18,12 +18,19 @@
     
     <h1>Lee is not a Slytherin</h1>
      
-    <p>I do not care what he says, he is a Ravenclaw. Use the buttons below to vote</p>
+    <p>I do not care what he says, he is a <strong>Ravenclaw</strong>.</p>
     
-  <div class="button-container">
-  <button>Yes, he is</button>
-  <button>Yes, he really is</button>
-  </div>
+  <fieldset>
+    <legend>Select an option below to agree!</legend>
+    <div>
+      <input type="radio" id="100% Ravenclaw" name="agree" value="100% Ravenclaw" />
+      <label for="100% Ravenclaw">100% Ravenclaw</label>
+    </div>
+    <div>
+      <input type="radio" id="100% not a Slytherin" name="agree" value="100% not a Slytherin" />
+      <label for="100% not a Slytherin">100% not a Slytherin</label>
+    </div>
+  </fieldset>
 
  <img src="brokenonpurpose" alt="Snakey Snake" style="width:128px;height:128px;">  
 
@@ -104,9 +111,7 @@
   
 </table>
     
-    <script src="./script.js"></script>
-
-    <footer>
+      <footer>
             <p>&copy; Banana's Bazaar</p>
         </footer>
   </body>
