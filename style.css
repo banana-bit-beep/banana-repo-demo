@@ -5,9 +5,9 @@ html, body {
 }
 
 main {
-    padding-bottom: 60px;
-    margin-left: 130px;
-    margin-right: 130px;
+    padding-bottom: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 body {
@@ -88,6 +88,7 @@ p {
 
 #home {
     background-color: violet;
+    color: black
 }
 
 #me {
@@ -96,14 +97,20 @@ p {
 
 #table {
     background-color: violet;
+    color: black
 }
 
 #jokes { 
-    background-color: purple;
+    background-color: violet;
+    color: black
 }
 
 #tolkien {
-    background-color: violet;
+    background-color: purple;
+}
+
+#flex {
+    background-color: purple;
 }
 
 footer {
