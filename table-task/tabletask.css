@@ -198,6 +198,7 @@ tbody td:first-child {
 
 #home {
     background-color: violet;
+    color: black
 }
 
 #me {
@@ -206,14 +207,20 @@ tbody td:first-child {
 
 #table {
     background-color: violet;
+    color: black
 }
 
-#jokes { 
-    background-color: purple;
+#jokes {
+    background-color: violet;
+    color: black
 }
 
 #tolkien {
-    background-color: violet;
+    background-color: purple;
+}
+
+#flex {
+    background-color: purple;
 }
 
 footer {
