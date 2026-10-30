@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 5rem;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     }
 
@@ -28,31 +28,54 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.btn-group-vertical {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 220px;
-}
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 460px);
+    grid-auto-rows: 200px;
+    gap: 16px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    }
 
-.btn-group-vertical button {
-    background-color: purple;
-    border: 4px solid black;
-    border-radius: 20px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor: pointer;
-    padding: 15px 32px;
-    width: 250px;
-    text-align: center;
+.button-container a {
+    display: flex;
     text-decoration: none;
-    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 
-.btn-group-vertical button:hover {
-  opacity: 0.9;
-  background-color: violet;
-  color: black;
+.button-container button {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: 4px solid black;
+    border-radius: 32px;
+    background-color: purple;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: 3rem;
+    color: white;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.button-container button:hover {
+    background-color: violet;
+    color: black;
+    transform: translateY(-2px);
+}
+
+.button-container button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+    display: block;
 }
 
 .mySidenav {
