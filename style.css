@@ -17,6 +17,7 @@ body {
     align-items: center; 
     text-align: center;
     min-height: 100vh;
+    padding-bottom: 60px;
 }
 
 h1 {
@@ -80,7 +81,7 @@ p {
 
 .mySidenav {
     position: fixed;
-    top: 100px;
+    top: 150px;
     left: 0;
     z-index: 1000;
     display: flex;
